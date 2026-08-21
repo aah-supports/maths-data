@@ -10,7 +10,7 @@ On calcule la matrice de covariance et on obtient :
 $$
 C=
 \begin{pmatrix}
-2&1\
+2&1\\
 1&2
 \end{pmatrix}
 $$
@@ -32,7 +32,7 @@ Le vecteur propre associé à (3) est :
 $$
 v_1=
 \begin{pmatrix}
-1\
+1\\
 1
 \end{pmatrix}
 $$
@@ -62,7 +62,7 @@ La principale différence entre ces étudiants est assez évidente : certains so
 C'est cette direction que représente :
 
 $$
-\begin{pmatrix}1\1\end{pmatrix}
+\begin{pmatrix}1\\1\end{pmatrix}
 $$
 
 Et elle possède la plus grande valeur propre :
@@ -82,7 +82,7 @@ Le deuxième vecteur propre est :
 $$
 v_2=
 \begin{pmatrix}
-1\
+1\\
 -1
 \end{pmatrix}
 $$
@@ -137,7 +137,7 @@ $$
 Donc :
 
 $$
-\boxed{75%}
+\boxed{75}\%
 $$
 
 des différences entre les étudiants peuvent être expliquées par :
@@ -160,7 +160,7 @@ Les **vecteurs propres fabriquent de nouveaux axes** :
 
 $$
 \boxed{
-\begin{pmatrix}1\1\end{pmatrix}
+\begin{pmatrix}1\\1\end{pmatrix}
 \rightarrow
 \text{Maths + Programmation}
 }
@@ -168,7 +168,7 @@ $$
 
 $$
 \boxed{
-\begin{pmatrix}1\-1\end{pmatrix}
+\begin{pmatrix}1\\-1\end{pmatrix}
 \rightarrow
 \text{Maths - Programmation}
 }
@@ -177,11 +177,11 @@ $$
 Et les **valeurs propres indiquent l'importance de ces axes** :
 
 $$
-\boxed{3 \rightarrow 75%}
+\boxed{3 \rightarrow 75}\%
 $$
 
 $$
-\boxed{1 \rightarrow 25%}
+\boxed{1 \rightarrow 25}\%
 $$
 
 C'est exactement l'idée de base de la PCA : **trouver les directions qui résument le mieux les données**.
@@ -229,7 +229,7 @@ Donc, dans notre exemple de vecteur propre :
 $$
 v=
 \begin{pmatrix}
-1\
+1\\
 -1
 \end{pmatrix}
 $$
@@ -250,7 +250,7 @@ $$
 
 $$
 \begin{pmatrix}
-1\
+1\\
 1
 \end{pmatrix}
 $$
