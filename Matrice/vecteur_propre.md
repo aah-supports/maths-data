@@ -147,7 +147,7 @@ des différences entre les étudiants peuvent être expliquées par :
 Et seulement :
 
 $$
-\boxed{25%}
+\boxed{25}\%
 $$
 
 par :
